@@ -1,0 +1,23 @@
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 5%;
+}
+.nav-list li {
+    text-align: center;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-list li ul {
+    list-style-type: none;
+    display: inherit;
+    width: max-content;
+    gap: 15pt;
+}
