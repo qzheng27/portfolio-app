@@ -1,8 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    margin: 8px 20px;
+}
+
 app-top-bar {
     display: flex;
-    flex-direction: right;
+    flex-direction: row;
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
